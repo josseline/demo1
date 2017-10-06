@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://miguelerm.github.io/servicios/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://miguelerm.github.io/servicios/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://josseline.github.io/servicios/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://josseline.github.io/servicios/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
-    <s:schema elementFormDefault="qualified" targetNamespace="https://miguelerm.github.io/servicios/">
+    <s:schema elementFormDefault="qualified" targetNamespace="https://josseline.github.io/servicios/">
       <s:element name="ObtenerUsuarios">
         <s:complexType />
       </s:element>
@@ -41,7 +41,7 @@
   <wsdl:binding name="UsuariosServicioSoap" type="tns:UsuariosServicioSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ObtenerUsuarios">
-      <soap:operation soapAction="https://miguelerm.github.io/servicios/ObtenerUsuarios" style="document" />
+      <soap:operation soapAction="https://josseline.github.io/servicios/ObtenerUsuarios" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -53,7 +53,7 @@
   <wsdl:binding name="UsuariosServicioSoap12" type="tns:UsuariosServicioSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ObtenerUsuarios">
-      <soap12:operation soapAction="https://miguelerm.github.io/servicios/ObtenerUsuarios" style="document" />
+      <soap12:operation soapAction="https://josseline.github.io/servicios/ObtenerUsuarios" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
